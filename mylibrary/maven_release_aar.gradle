@@ -5,7 +5,7 @@ apply plugin: 'maven'
 ext {// ext is a gradle closure allowing the declaration of global properties
     PUBLISH_GROUP_ID = 'com.test'
     PUBLISH_ARTIFACT_ID = 'tools'
-    PUBLISH_VERSION = '1.2'
+    PUBLISH_VERSION = '1.3'
 }
 
 // 3.maven-输出路径
