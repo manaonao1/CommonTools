@@ -18,9 +18,8 @@ android {
 
     buildTypes {
         release {
-            buildConfigField "boolean", "LOG_DEBUG", "false"
-            minifyEnabled true
-            zipAlignEnabled true
+            buildConfigField "boolean", "LOG_DEBUG", "true"
+            minifyEnabled false
 //            shrinkResources true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
